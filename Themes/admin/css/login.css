@@ -1,0 +1,378 @@
+@charset "utf-8";
+ 
+/* =========== Login.CSS Admin Theme FusionGEN =========== */
+ 
+/* Fonts */
+@font-face {
+	font-family: 'MuseoSans';
+	src: url('../../../fonts/MuseoSans_500-webfont.eot');
+	src: url('../../../fonts/MuseoSans_500-webfont.eot?#iefix') format('embedded-opentype'),
+		url('../../../fonts/MuseoSans_500-webfont.woff') format('woff'),
+		url('../../../fonts/MuseoSans_500-webfont.ttf') format('truetype'),
+		url('../../../fonts/MuseoSans_500-webfont.svg#MuseoSans500') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'MuseoSlab';
+	src: url('../../../fonts/Museo_Slab_500-webfont.eot');
+	src: url('../../../fonts/Museo_Slab_500-webfont.eot?#iefix') format('embedded-opentype'),
+		url('../../../fonts/Museo_Slab_500-webfont.woff') format('woff'),
+		url('../../../fonts/Museo_Slab_500-webfont.ttf') format('truetype'),
+		url('../../../fonts/Museo_Slab_500-webfont.svg#Museo_Slab500') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* General */
+body {
+	font-family:'MuseoSans', Arial, Helvetica, Sans-serif;
+	color:#3d3d3d;
+	background-color:#3b3b3b;
+	line-height:1.5;
+	font-size:14px;
+	margin:0px;
+	padding:0px;
+}
+
+a {
+	text-decoration:none;
+}
+
+a img {
+	border:none;
+}
+.clear {
+	clear:both;
+}
+
+.center_1020 {
+	width:1020px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.logout { background-position:240px 0px; }
+
+/* Top bar */
+header {
+	height:58px;
+	background-color: #1e1e1e;
+	padding-top:10px;
+}
+
+header .logo, footer #logo .logo {
+	display:block;
+	width:197px;
+	height:28px;
+	float:left;
+	background-image:url(../images/fusiongen.png);
+	margin-top:13px;
+}
+
+header .right .welcome {
+	color:#909090;
+	font-size:16px;
+	text-shadow:1px 1px 0px #000;
+	float:right;
+	margin-top:17px;
+	margin-right:5px;
+}
+
+header .right .welcome b {
+	color:#ffffff;
+	font-weight:normal;
+}
+
+header nav .icon, #main .left .icon {
+	background-image:url(../images/icons/icons.png);
+	height:17px;
+	width:16px;
+	float:left;
+	margin-right:10px;
+	margin-top:2px;
+}
+
+header nav {
+	float:right;
+	max-width:370px;
+}
+
+header nav a, input[type="submit"], input[type="submit-top"] {
+	display:block;
+	float:right;
+	padding:5px 10px;
+	margin-top:11px;
+	background-color:#414141;
+	border-radius:2px;
+	border:1px solid #555555;
+	color:#fff;
+	text-shadow:1px 1px 0px #000;
+	box-shadow:0px 1px 0px #000;
+	margin-left:10px;
+	text-decoration:none;
+	background-color: #3e3e3e;
+	transition:all 0.3s ease;
+}
+
+header nav a:hover {
+	border:1px solid #7b7b7b;
+}
+
+header nav a:active {
+	background-image:none;
+}
+
+header nav .active, input[type="submit"]:hover, input[type="submit-top"]:hover {
+	border:1px solid 	#dc8044;
+	background-color:	#1e1e1e;
+	transition:all 0.3s ease;
+}
+
+header nav .active:hover {
+	border:1px solid #9b3d00;
+}
+
+#top_spacer {
+	height:50px;
+}
+
+/* Footer */
+footer {
+	font-family:'MuseoSlab', Arial, Helvetica, Sans-serif;
+	background-color:#1e1e1e;
+	margin-top:50px;
+	height:100px;
+}
+
+footer .center_1020 {
+	background-color:rgba(0,0,0,0.1);
+	border-left:;
+	height:100px;
+}
+
+footer aside {
+	float:left;
+}
+
+footer #logo {
+	width:286px;
+}
+
+footer .logo {
+	margin-top:35px !important;
+	float:none;
+	margin-left:50px;
+}
+
+footer #links {
+	width:222px;
+	padding-top:20px;
+	padding-left:18px;
+}
+
+footer #links a {
+	width:80px;
+	margin-top:5px;
+	margin-left:20px;
+	float:left;
+	margin-right:10px;
+	color:#8a8a8a;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #000;
+}
+
+footer #links a:hover {
+	color:#499fd1;
+}
+
+footer #discord {
+	width:255px;
+	text-shadow:1px 1px 0px #000;
+}
+
+footer #discord h1 {
+	color:#cccccc;
+	font-size:18px;
+	font-weight:normal;
+	margin:0px;
+	padding:0px;
+	margin-top:20px;
+	text-align:center;
+}
+
+footer #discord #discord_icon {
+	float:left;
+	background-image:url(../images/discord.png);
+	width:25px;
+	height:21px;
+	margin-left:60px;
+	margin-top:5px;
+	margin-right:10px;
+}
+
+footer #discord a {
+	color:#499fd1;
+	font-size:20px;
+	text-decoration:none;
+	float:left;
+}
+
+footer #discord a:hover {
+	color:#fff;
+}
+
+footer #html5 {
+	width:229px;
+	text-align:center;
+	padding-top:18px;
+}
+
+footer .divider, footer .divider2 {
+	background-image:url(../images/footer_divider.png);
+	height:99px;
+	width:2px;
+	float:left;
+	opacity:0.4;
+}
+
+footer .divider2 {
+	background-image:url(../images/footer_divider2.png);
+}
+
+#content {
+	background-color:#1e1e1e;
+	padding:30px;
+	width:515px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:150px;
+	border-radius: 3px;
+}
+
+h1 {
+	font-family:MuseoSlab;
+	color:#fff;
+	text-shadow:1px 2px 0px rgba(0,0,0,0.5);
+	font-size:60px;
+	text-align:center;
+	display:block;
+	margin-bottom:20px;
+	font-weight:normal;
+}
+
+input[type="text"], input[type="password"] {
+	font-family:MuseoSans;
+	font-size:20px;
+	color:#828181;
+	text-shadow:1px 1px 0px rgba(0,0,0,0.5);
+	background-color:#121212;
+	-webkit-border-radius:5px;
+	border:1px solid #dc8044;
+	padding:10px;
+	padding-left:40px;
+	width:192px;
+	height:30px;
+	margin:5px;
+	transition:all 0.3s ease;
+}
+
+input[type="password"]:nth-child(3) {
+	margin-top:5px;
+}
+
+input[type="submit"] {
+	float:none;
+	display:inline;
+	width:242px;
+	height:50px;
+	margin-left:7px;
+	font-size:20px;
+	transition:all 0.3s ease;
+	border: 1px #dc8044 solid;
+}
+
+input[type="submit-top"] {
+	float:none;
+	display:inline;
+	width:242px;
+	height:50px;
+	margin-left:7px;
+	font-size:20px;
+	transition:all 0.3s ease;
+	border: 1px #dc8044 solid;
+}
+
+input[disabled], input[disabled] + img {
+	opacity:0.2;
+}
+
+.error {
+	box-shadow:1px 1px 0px #000 inset, 0px 0px 10px #bd3737 !important;
+	-webkit-box-shadow:1px 1px 0px #000 inset, 0px 0px 10px #bd3737 !important;
+	-moz-box-shadow:1px 1px 0px #000 inset, 0px 0px 10px #bd3737 !important;
+	-o-box-shadow:1px 1px 0px #000 inset, 0px 0px 10px #bd3737 !important;
+	-ms-box-shadow:1px 1px 0px #000 inset, 0px 0px 10px #bd3737 !important;
+	border:1px solid #bd3737 !important;
+}
+
+input[type="text"]:focus, input[type="password"]:focus {
+	box-shadow:1px 1px 0px #000 inset, 0px 0px 10px #9c681d;
+	-webkit-box-shadow:1px 1px 0px #000 inset, 0px 0px 10px #9c681d;
+	-moz-box-shadow:1px 1px 0px #000 inset, 0px 0px 10px #9c681d;
+	-o-box-shadow:1px 1px 0px #000 inset, 0px 0px 10px #9c681d;
+	-ms-box-shadow:1px 1px 0px #000 inset, 0px 0px 10px #9c681d;
+	border:1px solid #dc8044;
+}
+
+form {
+	margin-bottom:20px;
+}
+
+*:focus {
+	outline:none;
+}
+
+#content form img {
+	position:absolute;
+	margin-left:-235px;
+	margin-top:23px;
+}
+
+#content form img:nth-child(6) {
+	margin-top:28px;
+}
+
+/*  
+Sticky Footer Solution
+by Steve Hatcher 
+http://stever.ca
+http://www.cssstickyfooter.com
+*/
+
+* {margin:0;padding:0;} 
+
+/* must declare 0 margins on everything, also for main layout components use padding, not 
+vertical margins (top and bottom) to add spacing, else those margins get added to total height 
+and your footer gets pushed down a bit more, creating vertical scroll bars in the browser */
+
+html, body {height: 100%;}
+
+#wrap {min-height: 100%;}
+
+#fixer {overflow:auto;
+	padding-bottom: 180px;}  /* must be same height as the footer */
+
+footer {position: relative;
+	margin-top: -100px; /* negative value of footer height */
+	clear:both;} 
+
+/*Opera Fix*/
+body:before {/* thanks to Maleika (Kohoutec)*/
+content:"";
+height:100%;
+float:left;
+width:0;
+margin-top:-32767px;/* thank you Erik J - negate effect of float*/
+}
