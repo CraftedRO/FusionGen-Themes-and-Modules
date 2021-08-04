@@ -40,24 +40,24 @@
 #slider_next,
 #slider_previous {
 	color: #e2e2e2;
-    cursor: pointer;
-    font-size: 12px;
-    text-align: center;
-    box-shadow: inset 0 0 0 1px #187d85, inset 0 0 0 2px #0d0d0d;
-    font-family: 'PTSansCaption';
-    border-width: 2px;
-    border-style: solid;
-    border-color: #043345;
-    border-radius: 0;
-    text-transform: uppercase;
-    background: linear-gradient(to bottom,rgb(1 14 20 / 68%) 0%,rgb(1 14 20) 50%,rgb(2 28 37) 50%,rgb(3 22 29) 100%);
-    transition: all .3s ease-in-out;
+	cursor: pointer;
+	font-size: 12px;
+	text-align: center;
+	box-shadow: inset 0 0 0 1px #187d85, inset 0 0 0 2px #0d0d0d;
+	font-family: 'PTSansCaption';
+	border-width: 2px;
+	border-style: solid;
+	border-color: #043345;
+	border-radius: 0;
+	text-transform: uppercase;
+	background: linear-gradient(to bottom,rgb(1 14 20 / 68%) 0%,rgb(1 14 20) 50%,rgb(2 28 37) 50%,rgb(3 22 29) 100%);
+	transition: all .3s ease-in-out;
 }
 
 #slider_next:hover,
 #slider_previous:hover {
 	background-color:#000;
-    transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
 }
 
 #store {
@@ -142,19 +142,19 @@ div.staff_comment {
 
 .popup_button:hover {
 	 background-color: #76b347;
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #76b347), color-stop(100%, #5e9e2e));
-    background-image: -webkit-linear-gradient(top, #76b347, #5e9e2e);
-    background-image: -moz-linear-gradient(top, #76b347, #5e9e2e);
-    background-image: -ms-linear-gradient(top, #76b347, #5e9e2e);
-    background-image: -o-linear-gradient(top, #76b347, #5e9e2e);
-    background-image: linear-gradient(top, #76b347, #5e9e2e);
-    box-shadow: inset 0 1px 0 0 #8dbf67;
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #76b347), color-stop(100%, #5e9e2e));
+	background-image: -webkit-linear-gradient(top, #76b347, #5e9e2e);
+	background-image: -moz-linear-gradient(top, #76b347, #5e9e2e);
+	background-image: -ms-linear-gradient(top, #76b347, #5e9e2e);
+	background-image: -o-linear-gradient(top, #76b347, #5e9e2e);
+	background-image: linear-gradient(top, #76b347, #5e9e2e);
+	box-shadow: inset 0 1px 0 0 #8dbf67;
 }
 
 .popup_button:active {
 	border: 1px solid #5b992b;
-    border-bottom: 1px solid #538c27;
-    box-shadow: inset 0 0 8px 4px #548c29, 0 1px 0 0 #eeeeee;
+	border-bottom: 1px solid #538c27;
+	box-shadow: inset 0 0 8px 4px #548c29, 0 1px 0 0 #eeeeee;
 }
 
 .popup_hide {
@@ -173,19 +173,19 @@ div.staff_comment {
 
 .popup_hide:hover {
 	background-color: #adadad;
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #adadad), color-stop(100%, #a0a0a0));
-    background-image: -webkit-linear-gradient(top, #adadad, #a0a0a0);
-    background-image: -moz-linear-gradient(top, #adadad, #a0a0a0);
-    background-image: -ms-linear-gradient(top, #adadad, #a0a0a0);
-    background-image: -o-linear-gradient(top, #adadad, #a0a0a0);
-    background-image: linear-gradient(top, #adadad, #a0a0a0);
-    box-shadow: inset 0 1px 0 0 #bbbbbb;
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #adadad), color-stop(100%, #a0a0a0));
+	background-image: -webkit-linear-gradient(top, #adadad, #a0a0a0);
+	background-image: -moz-linear-gradient(top, #adadad, #a0a0a0);
+	background-image: -ms-linear-gradient(top, #adadad, #a0a0a0);
+	background-image: -o-linear-gradient(top, #adadad, #a0a0a0);
+	background-image: linear-gradient(top, #adadad, #a0a0a0);
+	box-shadow: inset 0 1px 0 0 #bbbbbb;
 }
 
 .popup_hide:active {
 	border: 1px solid #a0a0a0;
-    border-bottom: 1px solid #8b8b8b;
-    box-shadow: inset 0 0 8px 4px #8c8c8c, 0 1px 0 0 #eeeeee;
+	border-bottom: 1px solid #8b8b8b;
+	box-shadow: inset 0 0 8px 4px #8c8c8c, 0 1px 0 0 #eeeeee;
 }
 
 #popup_bg {
@@ -217,33 +217,34 @@ textarea {
 select {
 	font-family:Arial, Helvetica, Sans-serif;
 	font-size:12px;
-	width:84%;
+	width:80%;
 	padding:8px;
 	color:#fff;
 	background-color:#021015;
 	border:1px solid #0a394b;
 	margin:5px;
 	transition: all 300ms;
+	cursor: pointer;
 }
 
 input[type="submit"], .nice_button {
-	padding:7px;
+	padding:8px;
 	color: #e2e2e2;
-    cursor: pointer;
-    font-size: 12px;
-    text-align: center;
-    box-shadow: inset 0 0 0 1px #187d85, inset 0 0 0 2px #0d0d0d;
-    font-family: 'PTSansCaption';
-    border: 2px solid #043345;
-    border-radius: 0;
-    text-transform: uppercase;
-    background: linear-gradient(to bottom,rgb(1 14 20 / 68%) 0%,rgb(1 14 20) 50%,rgb(2 28 37) 50%,rgb(3 22 29) 100%);
-    transition: all .3s ease-in-out;
+	cursor: pointer;
+	font-size: 12px;
+	text-align: center;
+	box-shadow: inset 0 0 0 1px #187d85, inset 0 0 0 2px #0d0d0d;
+	font-family: 'PTSansCaption';
+	border: 2px solid #043345;
+	border-radius: 0;
+	text-transform: uppercase;
+	background: linear-gradient(to bottom,rgb(1 14 20 / 68%) 0%,rgb(1 14 20) 50%,rgb(2 28 37) 50%,rgb(3 22 29) 100%);
+	transition: all .3s ease-in-out;
 }
 
 input[type="submit"]:hover, .nice_button:hover, .nice_active {
 	background-color:#0b2733;
-    transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
 	color:#fff;
 }
 
@@ -295,6 +296,7 @@ input[type="email"]:focus {
 	background-repeat:no-repeat;
 	height:424px;
 	width:33px;
+	margin-right:5px;
 }
 
 #armory {
@@ -344,18 +346,18 @@ input[type="email"]:focus {
 
 /* Online players bar and realm bar (used on UCP, profiles) */
 .online_realm_button, #ucp_characters h1 {
-    display: block;
-    height: 32px;
-    color: #e2e2e2;
-    text-align: center;
-    text-shadow: 1px 1px 0px #000;
-    font-size: 14px;
-    font-weight: bold;
-    padding-top: 12px;
-    text-transform: uppercase;
-    background: linear-gradient(to bottom,rgb(1 14 20 / 68%) 0%,rgb(1 14 20) 50%,rgb(2 28 37) 50%,rgb(3 22 29) 100%);
-    border: 2px solid #043345;
-    box-shadow: inset 0 0 0 1px #187d85, inset 0 0 0 2px #0d0d0d;
+	display: block;
+	height: 32px;
+	color: #e2e2e2;
+	text-align: center;
+	text-shadow: 1px 1px 0px #000;
+	font-size: 14px;
+	font-weight: bold;
+	padding-top: 12px;
+	text-transform: uppercase;
+	background: linear-gradient(to bottom,rgb(1 14 20 / 68%) 0%,rgb(1 14 20) 50%,rgb(2 28 37) 50%,rgb(3 22 29) 100%);
+	border: 2px solid #043345;
+	box-shadow: inset 0 0 0 1px #187d85, inset 0 0 0 2px #0d0d0d;
 }
 
 .online_realm_button:hover {
@@ -425,10 +427,6 @@ input[type="email"]:focus {
 .toppvp_character {
 	border-top:1px solid #0A3748;
 }
-
-/* Depending on your theme background color, you may need to change specific item quality colors */
-#search_results .q1, .q1 a { color:#fff !important }
-#search_results .q2, .q2 a { color:#14a800 !important }
 
 /* FusionEditor WYSIWYG field */
 .fusioneditor .fusioneditor_tools {
@@ -546,8 +544,8 @@ input[type="email"]:focus {
 }
 
 #shoutbox form input[type="submit"] {
-        margin-top:4px;
-        width:149px;
+	margin-top:4px;
+	width:149px;
 }
 
 #sidebox_login input[type="submit"] {
